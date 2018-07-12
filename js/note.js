@@ -51,6 +51,6 @@ $(document).ready(function () {
         "border-style": "solid",
         "border-width": "2px",
         "border-color": "black",
-        "border-radius": "5px"
+        "border-radius": "5px",
     })
 });
