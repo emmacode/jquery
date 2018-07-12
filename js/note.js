@@ -21,4 +21,9 @@ $(document).ready(function () {
     //Adding class and html to the id 'list-3'
     $("#list-3").html("Recycle bin");
     $("#list-3").addClass("btn btn-success");
+    //Adding CSS to class 'btn btn-success'
+    $(".btn-success").css({
+        "position":"relative",
+        "margin":"20px"
+    })
 });
