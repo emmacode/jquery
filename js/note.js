@@ -24,6 +24,7 @@ $(document).ready(function () {
     //Adding CSS to class 'btn btn-success'
     $(".btn-success").css({
         "position":"relative",
-        "margin":"20px"
-    })
+        "margin":"20px",
+    });
+    
 });
