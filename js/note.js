@@ -36,9 +36,9 @@ $(document).ready(function () {
     $("#Topicin").css({
         "border-radius": "5px",
         "border-style": "solid",
-        "border-color":"black",
-        "border-width":"1px",
-        "color":"black",
+        "border-color": "black",
+        "border-width": "1px",
+        "color": "black",
     })
     $("#addNote").css({
         "position": "absolute",
@@ -47,7 +47,7 @@ $(document).ready(function () {
         "left": "20%",
         "right": "20%",
         "width": "60%",
-        "color":"black",
+        "color": "black",
         "border-style": "solid",
         "border-width": "2px",
         "border-color": "black",
