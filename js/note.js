@@ -12,17 +12,17 @@ $(document).ready(function () {
     });
     //Adding class and html to the id 'list-1'
     $("#list-1").html("Create Note");
-    $("#list-1").addClass("btn btn-success p-2 ");
+    $("#list-1").addClass("btn btn-outline-success p-2 ");
     //End of list-1
     //Adding class and html to the id 'list-2'
     $("#list-2").html("My Notes");
-    $("#list-2").addClass("btn btn-success p-2");
+    $("#list-2").addClass("btn btn-outline-success p-2");
     //End of 'list-2'
     //Adding class and html to the id 'list-3'
     $("#list-3").html("Recycle Bin");
-    $("#list-3").addClass("btn btn-success p-2");
-    //Adding CSS to class 'btn btn-success'
-    $(".btn-success").css({
+    $("#list-3").addClass("btn btn-outline-success p-2");
+    //Adding CSS to class 'btn btn-outline-success'
+    $(".btn-outline-success").css({
         "position": "relative",
         "margin": "20px",
     });
