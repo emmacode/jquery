@@ -55,7 +55,7 @@ $(document).ready(function () {
     });
     $("#submit").css({
         "position":"absolute",
-        "left":"20%",
+        "right":"20%",
         "bottom":"18%",
     }).addClass("btn btn-outline-success");
 });
