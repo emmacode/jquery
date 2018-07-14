@@ -39,7 +39,7 @@ $(document).ready(function () {
         "border-color": "black",
         "border-width": "1px",
         "color": "black",
-    })
+    });
     $("#addNote").css({
         "position": "absolute",
         "top": "25%",
@@ -52,5 +52,10 @@ $(document).ready(function () {
         "border-width": "2px",
         "border-color": "black",
         "border-radius": "5px",
-    })
+    });
+    $("#submit").css({
+        "position":"absolute",
+        "left":"20%",
+        "bottom":"18%",
+    }).addClass("btn btn-outline-success");
 });
