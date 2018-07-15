@@ -1,0 +1,1 @@
+Note taking web application with jquery 
