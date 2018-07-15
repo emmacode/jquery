@@ -60,7 +60,9 @@ $(document).ready(function () {
         "bottom": "18%",
     }).addClass("btn btn-outline-success");
     $("#list-2").click(function () {
-        $("#show-create-note").show();
+        $("#show-create-note").toggle();
     });
-    
+    $("#list-1").click(function () {
+        $("#show-my-notes").toggle();
     });
+});
