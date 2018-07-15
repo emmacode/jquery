@@ -11,11 +11,11 @@ $(document).ready(function () {
         "padding-top": "20px",
     });
     //Adding class and html to the id 'list-1'
-    $("#list-1").html("Create Note");
+    $("#list-1").html("My notes");
     $("#list-1").addClass("btn btn-outline-success p-2 ");
     //End of list-1
     //Adding class and html to the id 'list-2'
-    $("#list-2").html("My Notes");
+    $("#list-2").html("Create Note");
     $("#list-2").addClass("btn btn-outline-success p-2");
     //End of 'list-2'
     //Adding class and html to the id 'list-3'
@@ -59,5 +59,8 @@ $(document).ready(function () {
         "right":"20%",
         "bottom":"18%",
     }).addClass("btn btn-outline-success");
+    $("#list-2").click(function(){
+        $("#show-create-note").show();
+    })
 });
 
