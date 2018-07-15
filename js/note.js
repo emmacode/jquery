@@ -61,6 +61,7 @@ $(document).ready(function () {
     }).addClass("btn btn-outline-success");
     $("#list-2").click(function(){
         $("#show-create-note").show();
-    })
+    });
+    
 });
 
