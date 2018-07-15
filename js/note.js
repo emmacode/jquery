@@ -62,3 +62,5 @@ $(document).ready(function () {
     $("#list-2").click(function () {
         $("#show-create-note").show();
     });
+    
+    });
