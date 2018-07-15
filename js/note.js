@@ -52,6 +52,7 @@ $(document).ready(function () {
         "border-width": "2px",
         "border-color": "black",
         "border-radius": "5px",
+        "resize":"none",
     });
     $("#submit").css({
         "position":"absolute",
@@ -59,3 +60,4 @@ $(document).ready(function () {
         "bottom":"18%",
     }).addClass("btn btn-outline-success");
 });
+
