@@ -52,16 +52,13 @@ $(document).ready(function () {
         "border-width": "2px",
         "border-color": "black",
         "border-radius": "5px",
-        "resize":"none",
+        "resize": "none",
     });
     $("#submit").css({
-        "position":"absolute",
-        "right":"20%",
-        "bottom":"18%",
+        "position": "absolute",
+        "right": "20%",
+        "bottom": "18%",
     }).addClass("btn btn-outline-success");
-    $("#list-2").click(function(){
+    $("#list-2").click(function () {
         $("#show-create-note").show();
     });
-    
-});
-
