@@ -1,15 +1,31 @@
 $(document).ready(function () {
+    $("body").css("font-family", "'Lato', sans-serif");
     $(".sidenav").css({
         "height": "100%",
-        "width": "200px",
-        "position": "absolute",
+        "width": "0",
+        "position": "fixed",
         "z-index": "1",
         "top": "o",
         "left": "0",
         "background-color": "#111",
         "overflow-x": "hidden",
-        "padding-top": "20px",
+        "transition":"0.5s",
+        "padding-top": "60px",
     });
+    $(".sidenav .closebtn").css({
+        "position": "absolute",
+        "top": "0",
+        "right": "25px",
+        "font-size": "36px",
+        "color":"white",
+        "margin-left": "50px",
+    });
+    $(".sidenav li").css({
+        "padding":"8px 8px 8px 32px",
+        "text-decoration":"none",
+        "display":"block",
+        "transition":"0.3s",
+    })
     //Adding class and html to the id 'list-1'
     $("#list-1").html("My notes");
     $("#list-1").addClass("btn btn-outline-success p-2 ");
@@ -66,3 +82,10 @@ $(document).ready(function () {
         $("#show-my-notes").toggle();
     });
 });
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

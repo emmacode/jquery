@@ -8,17 +8,22 @@
     <title>Note application</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <style>
+    @media screen and (max-height:450px){
+        .sidenav {padding-top:15px;}
+        .sidenav li{font-size: 18px;}
+    }
+    </style>
 </head>
 
 <body>
-    <navbar>
-        <div class="sidenav">
-
-            <li id="list-1"></li>
-            <li id="list-2"></li>
-            <li id="list-3"></li>
-        </div>
-    </navbar>
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li id="list-1"></li>
+        <li id="list-2"></li>
+        <li id="list-3"></li>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <!-- Start of My Notes html -->
     <div class="container" id="show-my-notes">
         <div class="text-center">hello</div>
